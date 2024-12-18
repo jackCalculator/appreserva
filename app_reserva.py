@@ -71,7 +71,7 @@ def calcular_reserva(data_nascimento, data_entrada, desconto_pre2020, desconto_p
     return (data_reserva_original, data_reserva_2019, data_reserva_proposta, tempo1, tempo2, tempo3, explicacao_proposta)
 
 # Interface Streamlit
-st.markdown("## Calculadora de Tempo para Reserva Militar ([PL 4920/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2480445))")
+st.markdown("## Calculadora de Tempo para Reserva Militar FFAA ([PL 4920/2024](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2480445))")
 
 st.write("*Solução gerada por LLM com nenhuma garantia que esteja certa, considere apenas como referência inicial*")
 
